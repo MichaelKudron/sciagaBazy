@@ -1,0 +1,446 @@
+1. Uzyskanie prędkości do 100Mb/s w standardzie Ethernet wymaga użycia w skrętce co najmniej par przewodów:
+- 1,2 oraz 3,6
+2. MTU służy do określenia:
+- maksymalnej wielkości jednostki danych, która może być przesłania bez fragmentacji
+3. Ile hostów można zaadresować w sieci 10.0.56.0/24?
+- 254
+4. Transmisja szerokopasmowa:
+- wykorzystuje kilka kanałów jednocześnie
+5. Która z poniższych warstw stosu OSI odpowiada na sieciowy format danych?
+- prezentacji
+6. Segment to jednostka danych charakterystyczna dla protokołu:
+- TCP
+7. Przełącznik typu "store and forward":
+- odczytuje całe ramki i tylko poprawne przekazuje dalej
+8. Standard z poniższych oznaczeń przewodów jest nieprawidłowy:
+- 1GBASE-FT
+9. Które z poniższych poleceń nie jest częścią protokołu SMTP
+- MESSAGE
+10. 129.12.0.0/16 jest adresem
+- sieci
+11. 192.0.0.128/25 jest adresem
+- podsieci
+12. W prawidłowo wykonanym, w standardzie Ethernet, kablu prostym:
+- obydwa zakończenia są w standardzie T-568A lub T-568B
+13. Który z poniższych typów rekordów DNS, służy do przypisywania alternatywnej nazwy domenowej (aliasu) do adresu IP?
+- PTR, CNAME
+14. Podaj adres podsieci, w której znajduje się host o adresie 152.44.77.33/20.
+- 152.44.64.0/20
+15. Protokół PPPoE służy do:
+- tunelowania połączeń punkt-punt poprzez Ethernet
+16. Które z poniższych algorytmów wykorzystywane są do kodowania bitów za pomocą sygnału elektrycznego?
+- MLT-3, Non-Return Zero, Manchester
+17. Komunikat TCP SYN służy do:
+- nawiązaniu połączenia
+18. Które z poniższych elementów stanowią składowe włókna światłowodowego?
+- płaszcz, rdzeń, osłona
+19. Który z poniższych klas adresów IPv4 zawiera adresy grupowe?
+- D
+20. Komunikat TCP FIN służy do:
+- rozwiązania połączenia
+21. Który z poniższych protokołów służy do logicznego usuwania pętli w połączeniu przełączników?
+- Spanning Tree Protocol
+22. Który z poniższych komunikatów serwera DHCP służy do przekazania klientowi oferty przydziału konfiguracji?
+- DHCP Offer
+23. Jakie jest zastosowanie protokołu DHCP?
+- do przydzielania konfiguracji sieciowej
+24. 192.1.0.0/24 jest adresem
+- sieci
+25. Podaj polecenie systemu Linux ustawiające domyślą bramę na adres 10.64.104.1.
+- route add default gw 10.64.104.1
+26. Cechy charakterystyczne dla komutacji pakietów to:
+- brak z góry określonej ścieżki w momencie wysyłania porcji danych, strumień generowanych przez aplikację danych jest dzielony na porcje o rozmiarze nie przekraczającym MTU
+27. Podaj najkrótszą postać adresu IPv6: "2001:0db8:0000:0000:0000:0000:1428:57ab"
+- 2001:db8::1428:57ab
+28. Który z poniższych protokołów jest wykorzystywany przez polecenie ping?
+- ICMP
+29. W protokole SMTP dane służące do uwierzytelniania użytkowników są szyfrowane/kodowane za pomocą algorytmu:
+- Base64
+30. Które z poniższych algorytmów są stosowane do kodowania bitów w mediach wykorzystujących energię elektryczną?
+- impulsowa modulacja amplitudy (PAM)
+31. Adresy fizyczne MAC są długości:
+- 48 bitów
+32. Klonowanie adresów MAC polega na:
+- zmianie adresu przypisanego przez producenta
+33. Pakiet to jednostka danych charakterystyczna dla protokołu warstwy modelu OSI (podaj nazwę a nie numer):
+- sieci
+34. Ile warstw zdefiniowanych jest w modelu TCP/IP:
+- 4
+35. 192.168.4.63/26 jest adresem
+- rozgłoszeniowym
+36. Które z poniższych algorytmów są stosowane do kodowania bitów w mediach wykorzystujących energię elektryczną?
+- impulsowa modulacja amplitudy (PAM), Manchester, Non-return zero, MLT-3
+37. Który z poniższych protokołów nie jest wykorzystywany do tunelowania połączeń?
+- Network Address Tunelling
+38. 10.1.0.0/8 jest adresem
+- hosta
+39. Adres typu unicast dostępny jest w protokołach:
+- w IPv4 oraz IPV6
+40. Protokół PPPoE dostarcza podczas dostępu do sieci Ethernet mechanizmu:
+- autentykacji użytkowników
+41. 100.100.255.255/16 jest adresem
+- rozgłoszeniowym
+42. Które z poniższych poleceń służą do określania ścieżki (lub jej fragmentu) przesyłania pakietu?
+- traceroute, tracert, ping -R
+43. Podaj nazwę procesu upakowaniu danych z wyższej warstwy w warstwie niższej danego protokołu po stronie nadawczej.
+- enkapsulacja
+44. W skrętkach każda para przewodów "skręcona" jest za pomocą splotu:
+- norweskiego
+45. Która z poniższych warstw stosu OSI odpowiada za definiowanie punktów synchronizacji podczas transmisji?
+- sesji
+46. W jaki sposób ruter informuje nadawcę, że zator został opanowany i jest gotowy do transmisji danych:
+- przesyła potwierdzenie ostatniego otrzymanego pakietu z odpowiednio dużą wielkością okna przesuwnego
+47. 8.0.0.0/8 jest adresem
+- sieci
+48. Użytkownik chciałby uruchomić usługę bez uprawnień administratora systemu. Które z poniższych portów mógłby użyć?
+- 12080, 3048
+49. VPN to:
+- tunel
+50. Urządzenie podczas łączenia się z serwerem DHCP (zakładając, że wcześniej nie miało przypisanego żadnego adresu IP) w polu adres źródłowy ma wpisany:
+- 0.0.0.0
+51. Które z poniższych standardów definiują kolejność przewodów w skrętce?
+- T-568A i T-568B
+52. 192.168.10.4/26 jest adresem
+- hosta
+53. Adres typu broadcast dostępny jest w protokołach:
+- tylko w IPv4
+54. Które z poniższych są protokołami bezpołączeniowymi w warstwie transportowej?
+- UDP
+55. Transmisja, w której wykorzystywany jest tylko jeden kanał komunikacyjny (częstotliwość) to transmisja:
+- w paśmie podstawowym
+56. Które z poniższych cech charakteryzują protokołów OSPF w porównaniu z RIP?
+- jest skalowalny, ma krótszy czas zbieżności, może wykorzystywać bardziej złożone metryki
+57. W standardzie 1000BASE-SX jako medium transmisyjne jest wykorzystywany:
+- światłowód
+58. Który z poniższych standardów oznaczeń przewodów jest nieprawidłowy:
+- 1GBASE-FT
+59. Użytkownik chciałby uruchomić usługę bez uprawnień administratora systemu. Które z poniższych portów mógłby użyć?
+- 10080, 5555
+60. Ile warstw zdefiniowanych jest w modelu ISO/OSI:
+- 7
+61. Który z poniższych parametrów może być przekazywany klientom przez serwer DHCP?
+- maska podsieci, domyślna brama, MTU, czas dzierżawy
+62. Podaj adres pętli zwrotnej w IPv6 zapisany w najkrótszej postaci:
+- ::1
+63. Jakiej najniższej kategorii skrętki mogą być wykorzystywane do budowy sieci komputerowych?
+- Cat 5
+64. 200.100.50.0/24 jest adresem
+- sieci
+65. Które z poniższych technik są wykorzystywane przez warstwę łącza danych do detekcji błędów podczas przesyłanych bitów?
+- kod CRC, podwójne przesłanie bitów
+66. Który z poniższych komunikatów służy do nawiązania połączenia za pomocą protokołu TCP?
+- TCP SYN
+67. Punkt dostępu do usługi to inaczej:
+- port
+68. 150.17.18.1/24 jest adresem
+- hosta
+69. Która z poniższych warstw stosu OSI odpowiada za szyfrowanie danych?
+- prezentacji
+70. Rozszyfruj akronim DHCP.
+- Dynamic Host Configuration Protocol
+71. Komunikaty TCN (ang. Topology Change Notification) wykorzystywane są przez protokół:
+- Spanning Tree Protocol
+72. Które z poniższych urządzeń działają domyślnie w warstwie 1 OSI
+- wzmacniak, koncentrator
+73. 10.64.103.0/16 jest adresem:
+- hosta
+74. Który z poniższych protokołów nie jest wykorzystywany do tunelowania połączeń?
+- Layer 4 Tunelling Protocol
+75. 1.255.0.0/8 jest adresem
+- hosta
+76. Skrętki żelowane stosuje się w warunkach:
+- podwyższonej wilgotności
+77. Podaj dyrektywę za pomocą, którego określa się adres odbiorcy w protokole SMTP.
+- RCPT TO
+78. W którym z poniższych algorytmów kodowania bitów za pomocą sygnału elektrycznego wykorzystywane jest kodowanie 4B/5B?
+- MLT-3
+79. Podaj adres podsieci, w której znajduje się host o adresie 10.64.104.76/24.
+- 10.64.104.0/24
+80. Adres typu multicast dostępny jest w protokołach:
+- w IPv4 oraz IPV6
+81. Przełączniki którego typu są najszybsze:
+- cut trough
+82. Przełącznik typu "cut trough":
+- odczytuje z ramki jedynie adres MAC urządzenia docelowego i przekazuje dalej bez sprawdzania poprawności
+83. Okno przesuwne w protokole TCP służy do określenia:
+- porcji danych, które mogą być przesłane do rutera
+84. Które z poniższych symboli oznaczają kategorie skrętek?
+- 5, 5e, 7
+85. Które z poniższych własności nie są prawdziwe w odniesieniu do protokołu SMTP?
+- treść maila jest zawsze zaszyfrowana
+86. Jakiego rzędu prędkości mogą być osiągane przy użyciu medium transmisyjnego w postaci skrętki?
+- dzięsiątki Gb/s
+87. Domyślnie narzędzie nslookup będzie korzystało z serwerów DNS zdefiniowanych w pliku:
+- /etc/resolv.conf
+88. Ramka to porcja danych charakterystyczna dla protokołu warstwy modelu OSI (podaj nazwę a nie numer):
+- łącza danych
+89. Generic Routing Encapsulation (GRE) to protokół:
+- tunelowania
+90. Która z poniższych warstw stosu OSI odpowiada na kompresję danych?
+- prezentacji
+91. Protokół ARP służy do:
+- pozyskiwania adresów MAC na podstawie adresu IP
+92. Przełącznik typu "fragment free":
+- odczytuje pierwsze 64 bity ramki i po odczytaniu MAC odbiorcy kopiuje pozostałą część na port odbiorcy
+93. Które z poniższych poleceń może zostać wykorzystane do sprawdzenia liczby przeskoków przy komunikacji z określonym hostem?
+- traceroute
+94. Które z poniższych wartości mogą być częścią składową metryk protokołów rutingu?
+- szerokość pasma, opóźnienie, koszt ścieżki, MTU
+95. Które z poniższych są protokołów operują w warstwie transportowej?
+- UDP, TCP
+96. Rekord Start of Authority (SOA) jest częścią usługi:
+- DNS
+97. 192.168.4.66/26 jest adresem
+- hosta
+98. Miarę natężenia strumienia informacji transmitowanego przez pewien punkt łącza mierzonej w b/s określa się mianem:
+- przepływności
+99. Datagram to porcja danych charakterystyczna dla protokołu warstwy modelu OSI (podaj nazwę a nie numer):
+- transportowej
+100. Parametr TTL w nagłówku pakietu IPv4 jest mierzony w:
+- liczbie przeskoków
+101. Które z poniższych symboli oznaczają kategorie skrętek?
+- 5, 8
+102. Czynniki wpływające na opóźnienie podczas transmisji danych to:
+- propagacja sygnału, przygotowanie danych do wysłania, przetwarzanie paczek danych przez urządzenia pośredniczące, występowanie zatorów
+103. Które z poniższych czynników wpływają niekorzystnie na proces transmisji danych poprzez włókno światłowodowe?
+- dyspersja modowa, dyspersja chromatyczna
+104. Która z poniższych aplikacji nie jest serwerem SMTP:
+- nslookup
+105. 10.64.103.0/24 jest adresem:
+- podsieci
+106. Pakiet to porcja danych charakterystyczna dla protokołu warstwy modelu OSI (podaj nazwę a nie numer):
+- sieci
+107. W której warstwie mogą pracować przełączniki? Zaznacz najwyższą wartość.
+- 7
+108. W standardzie 100BASE-TX jako medium transmisyjne jest wykorzystywany:
+- skrętka
+109. Segment to porcja danych charakterystyczna dla protokołu warstwy modelu OSI (podaj nazwę a nie numer):
+- transportowej
+110. Rozwiń akronim DNS.
+- Domain Name System
+111. Które z poniższych narzędzi mogą być wykorzystane do testowania wskazanego serwera DNS.
+- nslookup, dig
+112. Podczas przesyłania pakietu z wykorzystaniem mechanizmu tunelowania jego wielkość:
+- rośnie
+113. Na których portach odczytywane jest z ramki pole VLANID?
+- tagged
+114. Która warstwa modelu OSI operuje na adresach MAC?
+- łącza danych
+115. Które z poniższych wartości mogą być częścią składową metryk protokołów rutingu?
+- szerokość pasma, opóźnienie, liczba przeskoków, MTU
+116. 10.17.0.0/24 jest adresem
+- podsieci
+117. Dopasuj nazwy to typów transmisji.
+- jednokierunkowa → SIMPLEX, naprzemienna → HALF-DUPLEX, dwukierunkowa → DUPLEX
+118. Które z poniższych symboli oznaczają skrętkę ekranowaną?
+- FTP, STP, U-STP
+119. W systemach Linux, w którym pliku definiowane są lokalne odwzorowania nazw domenowych na adresy IP?
+- /etc/hosts
+120. Ramka to jednostka danych charakterystyczna dla protokołu warstwy modelu OSI (podaj nazwę a nie numer):
+- łącza danych
+121. W prawidłowo wykonanym, w standardzie Ethernet, kablu skrośnym:
+- na jednym końcu zakończenie jest w standardzie T-568A, na drugim T-568B
+122. Obszar Area 0 w protokole OSPF charakteryzuje się tym, że
+- przechodzi przez niego cały ruch transferowy
+123. Które z poniższych poleceń nie jest częścią protokołu SMTP
+- MAIL
+124. Adres typu anycast dostępny jest w protokołach:
+- tylko IPv6
+125. Które z poniższych protokołów służy do zdalnego dostępu do skrzynki pocztowej w sposób bardziej elastyczny niż POP3?
+- IMAP
+126. Który z poniższych typów rekordów DNS służy do określenia adresu obsługującego serwery pocztowe danej domeny?
+- MX
+127. Pole "Type of service" w IPv4 może przyjmować wartości:
+- 0000 – normalne traktowanie, 0001 – minimalizuj koszty, 0100 – maksymalizuj przepustowość, 1000 – minimalizuj opóźnienie
+128. Które z poniższych poleceń może zostać wykorzystane do sprawdzenia liczby przeskoków przy komunikacji z określonym hostem?
+- ping -R
+129. 100.100.127.255/17 jest adresem
+- rozgłoszeniowym
+130. Przełączniki są wykorzystywane do budowy sieci w topologii:
+- gwiazdy
+131. Protokół PPoE dostarcza podczas dostępu do sieci Ethernet mechanizmu:
+- autentykacji użytkowników
+132. 168.192.0.0/16 jest adresem
+- sieci
+133. Które z poniższych protokołów należą do grupy protokołów wewnętrznych?
+- OSPF, ISIS, IGRP, RIP
+134. Rozwiń akronim NAT.
+- Network Address Translation
+135. Użytkownik chcąc połączyć się z serwerem 192.168.10.55 wpisał w przeglądarce adres URL: http://mojserwer. Jeżeli połączenie zostało prawidłowo zrealizowane, w którym pliku w systemie Linux zostało zdefiniowane to odwzorowanie?
+- /etc/hosts
+136. Która z poniższych dyrektyw może zostać użyta do wymuszenia korzystania z protokołu ESMPT na serwerze pocztowym?
+- EHLO
+137. Jakim adresem IP jest adres192.168.7.0/255.255.0.0
+- hosta
+138. 100.255.255.255/8 jest adresem
+- rozgłoszeniowym
+139. Które z poniższych własności nie są prawdziwe w odniesieniu do protokołu SMTP?
+- umożliwia przekazywanie wiadomości w postaci tekstowej oraz binarnej
+140. W modelu warstwowym:
+- każda z warstw komunikuje się jedynie z warstwami sąsiednimi
+141. Na podstawie którego z poniższych parametrów charakteryzujących klienta, serwer DHCP rozpoznaje jaki adres statyczny powinien być mu przydzielony? 
+- adres MAC
+142. Ile hostów może być zaadresowanych w sieci 129.0.0.0/16?
+- 216 - 2
+143. W standardzie 10BASE-5 jako medium transmisyjne jest wykorzystywany:
+- koncentryk
+144. Zakładając, że polecenieping www.pb.edu.plodwołuje się do urządzenia o adresie prywatnym, np. 10.64.104.56, w którym pliku w systemach Linux można zmienić to zachowanie, aby translacja adresu była realizowana z wykorzystaniem serwera DNS.
+- /etc/nsswitch.conf, /etc/host.conf
+145. Wymień 3 wybrane media transmisyjne stosowane w transmisji przewodowej. Podaj je w kolejności alfabetycznej oddzielając je od siebie spacją, a każdy z rodzajów określ jednym słowem.
+- koncentryk skrętka światłowód
+146. Które z poniższych poleceń odpyta serwer DNS o adresie 212.33.64.2 o translację wi.pb.edu.pl?
+- dig wi.pb.edu.pl @212.33.64.2
+147. 11.12.63.255/18 jest adresem
+- rozgłoszeniowym
+148. W przypadku nawiązywania przez klienta połączenia z serwerem, w polu port źródłowy ustawiana jest wartość:
+- losowa
+149. Który z poniższych adresów jest adresem prywatnym?
+- 10.16.1.9
+150. Podaj adres podsieci, w której znajduje się host o adresie 192.168.11.167/25.
+- 192.168.11.128/25
+151. Który z poniższych adresów jest adresem prywatnym?
+- 172.20.33.50
+152. Ile hostów można zaadresować w sieci192.168.10.0/24?
+- 254
+153. Które z poniższych metod są wykorzystywane do potwierdzania otrzymania pakietów?
+- pojedyncze, grupowe, selektywne
+154. Długość adresu IPv6 w porównaniu do IPv4 jest większa:
+- cztery razy
+155. Mechanizm "port trunking" służy do:
+- agregacji połączeń pomiędzy przełącznikami
+156. Które z poniższych zjawisk fizycznych wpływają niekorzystnie na proces transmisji danych poprzez włókno światłowodowe?
+- dyspersja modowa, dyspersja chromatyczna
+157. Który z poniższych protokołów jest wykorzystywany do przekazywania informacji o błędach występujących podczas transmisji danych?
+- ICMP
+158. Który z poniższych typów rekordów DNS, służy do translacji z adresu IP na nazwę domenową?
+- PTR
+159. Który z poniższych protokołów jest wykorzystywany do przekazywania informacji o błędach występujących podczas transmisji danych na protokole ICMP?
+- błędy ICMP nie są raportowane
+160. Uzyskanie prędkości do 1Gb/s w standardzie Ethernet wymaga użycia w skrętce co najmniej par przewodów:
+- wszystkich
+161. Które z poniższych protokołów mogą być wykorzystane do pobierania wiadomości z serwera pocztowego?
+- POP, IMAP
+162. Algorytm 4B/5B  podczas kodowania sygnału w algorytmie MLT-3 jest wykorzystywany w celu:
+- zapewnienia częstej synchronizacji nadajnika i odbiornika
+163. Porty, jako punkty dostępu do usług, są implementowane w warstwie:
+- transportowej
+164. W sieciach Ethernet algorytm dostępu do łącza danych jest Blank 1 Question 7 niedeterministycznydeterministyczny  oraz Blank 2 Question 7 bez arbitraz arbitrem .
+-W sieciach Ethernet algorytm dostępu do łącza danych jest [niedeterministyczny] oraz [bez arbitra].
+165. Podaj polecenie za pomocą, którego określa się adres nadawcy w protokole SMTP.
+- MAIL FROM
+166. Standard MIME służy m.in. do definiowania:
+- typów załączników w SMTP
+167. Która z poniższych nazw określa strefę dla odwzorowania przez serwer DNS adresów z podsieci 150.17.0.0?
+- 17.150.in-addr.arpa
+168. Które z wymienionych nazw określają tryby transmisji?
+- simplex, half-duplex, duplex (full-duplex)
+169. Maskarada jest szczególnym przypadkiem:
+- SNAT
+170. Które z poniższych parametrów w nagłówkach pakietów mogą być modyfikowane podczas forwardowania portów w NAT.
+- adres źródłowy oraz docelowy, port źródłowy oraz docelowy
+171. Które z poniższych parametrów w nagłówkach pakietów mogą być modyfikowane podczas maskarady?
+- adres źródłowy oraz docelowy
+172. Które z poniższych protokołów należą do grupy protokołów zewnętrznych?
+- BGP
+173. Który z poniższych komunikatów służy do nawiązania połączenia za pomocą protokołu UDP?
+- protokół UDP jest bezpołączeniowy
+174. Wymień wszystkie warstwy modelu TCP/IP począwszy od tej najbliżej sprzętu.
+- Warstwa 1 → dostępu do sieci, Warstwa 2 → internetu, Warstwa 3 → transportowa, Warstwa 4 → aplikacji
+175. Ile komunikatów należy przesłać pomiędzy klientem a serwerem, aby poprawnie nawiązać połączenie TCP?
+- 3
+176. Które z poniższych urządzeń działają domyślnie w warstwie 1 OSI
+- żadne z powyższych
+177. W przypadku adresów typu multicast w IPv4 pole nagłówka TTL:
+- określa zasięg pakietu, np. sieć lokalna
+178. W protokole SMTP edycja wiadomości jest kończona znakiem/symbolem:
+- pojedyncza kropka w ostatniej linii
+179. Wymień w kolejności wszystkie warstwy modelu OSI począwszy od tej najbliżej sprzętu:
+- Warstwa 1 → fizyczna, Warstwa 2 → łącza danych, Warstwa 3 → sieciowa, Warstwa 4 → transportowa, Warstwa 5 → sesji, Warstwa 6 → prezentacji, Warstwa 7 → aplikacji
+180. Który z poniższych adresów jest adresem prywatnym?
+- 192.168.10.33
+181. Który z poniższych standardów opisuje działaniae VLAN-ów?
+- 802.1q
+182. Na interfejsie eth0 skonfigurowany jest adres 10.64.104.10. Podaj polecenie systemu Linux dodające dodatkowy adres 192.168.10.20 na tym samym interfejsie.
+- ifconfig eth0:1 192.168.10.20
+183. Które z poniższych określeń nie jest rodzajem topologii wykorzystywanych w sieciach komputerowych?
+- drzewa
+184. Algorytm wolnego startu w warstwie transportowej służy do:
+- unikania przeciążeń poprzez wysyłanie danych z mniejszą prędkością na początkowym etapie transmisji
+185. Podaj polecenie za pomocą, którego określa się adres odbiorcy w protokole SMTP.
+- RCPT TO
+186. Który z poniższych typów rekordów DNS, służy do translacji z nazwy domenowej na adres IPv4?
+- PTR, A
+187. Który z poniższych komunikatów serwera DHCP służy do wyszukiwania dostępnych serwerów w danej sieci?
+- DHCP Discovery
+188. System autonomiczny to:
+- zbiór sieci zarządzanych przez jednego lub więcej operatorów z jednolitym protokołem rutingu
+189. Który z poniższych typów rekordów DNS służy do translacji z nazwy domenowej na adres IPv6?
+- PTR, AAAA
+190. Która z poniższych warstw stosu OSI odpowiada na szyfrowania danych?
+- prezentacji
+191. Które z poniższych protokołów należą do grupy protokołów wewnętrznych?
+- OSPF, ISIS, IGRP
+192. Wskaż subdomeny pb.edu.pl.
+- wm.pb.edu.pl
+193. Pole Suma kontrolna w nagłówku IPv6 ma długość:
+- nie ma takiego pola
+194. Które z poniższych urządzeń działają domyślnie w warstwie 1 OSI
+- wzmacniak
+195. Tunelowanie w odniesieniu do bezpieczeństwa przesyłanych danych, w porównaniu do transmisji standardowej:
+- jest zwiększone o ewentualne dodatkowe mechanizmy dostarczone przez protokół tunelowania
+196. 192.168.10.128/25 jest adresem:
+- podsieci
+197. Która warstwa modelu OSI odpowiada za algorytmy dostępu do medium transmisyjnego?
+- łącza danych
+198. Która z poniższych warstw stosu OSI odpowiada za określenie logicznego początku i końca dialogu oraz warunków jego przeprowadzenia?
+- sesji
+199. Adresy fizyczne MAC są wykorzystywane przez warstwę:
+- łącza danych
+200. Podaj najkrótszą postać adresu IPv6: "0000:0000:0000:0000:0000:0000:0000:0001"
+- ::1
+201. Ilość informacji jaką można przesłać łączem w jednostce czasu mierzona w bitach na sekundę określa się mianem:
+- przepustowości
+202. Które z poniższych urządzeń działają domyślnie w warstwie 2 OSI?
+- most, przełącznik
+203. Użytkownik chciałby uruchomić usługę bez uprawnień administratora systemu. Które z poniższych portów mógłby użyć?
+- 20543, 3048
+204. Które z poniższych symboli oznaczają skrętkę nieekranowaną?
+- UTP
+205. Segment to jednostka danych charakterystyczna dla protokołu warstwy modelu OSI (podaj nazwę a nie numer):
+- transportowej
+206. Urządzenie podczas łączenia się z serwerem DHCP (zakładając, że wcześniej nie miało przypisanego żadnego adresu IP) w polu adres docelowy ma wpisany:
+- 255.255.255.255
+207. Które z poniższych parametrów w nagłówkach pakietów mogą być modyfikowane podczas mapowania adresów 1:1 w NAT.
+- adres źródłowy oraz docelowy
+208. 6.255.255.255/8 jest adresem
+- rozgłoszeniowym
+209. Które z poniższych poleceń w systemie Linux przypisze VLANID=2 do interfejsu eth0?
+- vconfig add eth0 2
+210. Złącze w kablach typu skrętka to:
+- RJ-45
+211. Tinygram to:
+- segment danych o niewielkim rozmiarze
+212. Różnicę pomiędzy największą a najmniejszą częstotliwością sygnału przenoszoną w danym medium określa się mianem:
+- szerokości pasma
+213. Które z poniższych są protokołami połączeniowymi w warstwie transportowej?
+- TCP
+214. Punkt dostępu do usług w warstwie transportowej TCP/IP określany jest mianem:
+- portu
+215. Do jakiej podsieci należy adres192.168.14.77/255.255.252.0
+- 192.168.12.0
+216. Który z poniższych protokołów jest wykorzystywany do tunelowania połączeń w warstwie 2?
+- L2TP
+217. Datagram to jednostka danych charakterystyczna dla protokołu:
+- UDP
+218. Który z poniższych protokołów dostarcza ogólny mechanizm tunelowania umożliwiający przenoszenie dowolnego protokołu za pomocą dowolnego protokołu?
+- GRE
+219. Która warstwa modelu OSI wykorzystuje mechanizm szpikowania?
+- łącza danych
+220. Wyłączenie fragmentacji pakietów w protokole IPV6 wymaga:
+- nic nie trzeba robić, fragmentacja standardowo jest wyłączona
+221. Która z poniższych dyrektyw może zostać użyta do weryfikacji, czy serwer pocztowy obsługuje protokół ESMTP?
+- EHLO
+222. Które z poniższych technik są wykorzystywane przez warstwę łącza danych do korekcji przesyłanych bitów?
+- potrójne przesłanie bitów, kod Hamminga
+223. Algorytm Nagla jest stosowany do:
+- buforowania danych, aby nie wysyłać zbyt dużej liczby małych porcji danych
